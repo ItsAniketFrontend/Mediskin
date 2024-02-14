@@ -115,7 +115,7 @@ nav{
     h3{
         font-size: 22px;
         font-family: bold;
-        color: #e1e7f3;
+        color: grey;
     }
     .carousel-control-next, 
     .carousel-control-prev {
@@ -133,12 +133,12 @@ nav{
         transition: opacity .15s ease;
     }
     .carousel-control-prev {
-        right: 0%;
+        left: 40%;
     }
     .carousel-control-next {
-        left:3%;
+        left:43%;
         @media (max-width:1053px) {
-            left:8%;
+            left:50%;
         }
     }
 }

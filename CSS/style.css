@@ -113,7 +113,7 @@ nav a {
 .testimonials h3 {
   font-size: 22px;
   font-family: bold;
-  color: #e1e7f3;
+  color: grey;
 }
 .testimonials .carousel-control-next,
 .testimonials .carousel-control-prev {
@@ -131,13 +131,13 @@ nav a {
   transition: opacity 0.15s ease;
 }
 .testimonials .carousel-control-prev {
-  right: 0%;
+  left: 40%;
 }
 .testimonials .carousel-control-next {
-  left: 3%;
+  left: 43%;
 }
 @media (max-width: 1053px) {
   .testimonials .carousel-control-next {
-    left: 8%;
+    left: 50%;
   }
 }/*# sourceMappingURL=style.css.map */
