@@ -46,6 +46,7 @@ nav a {
 
 .medical-treatments {
   padding: 40px 0px;
+  overflow: hidden;
 }
 .medical-treatments h2 {
   font-family: semibold;
@@ -72,6 +73,7 @@ nav a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 .welcome .col-lg-6 {
   display: flex;
@@ -103,6 +105,7 @@ nav a {
 
 .testimonials {
   padding: 40px 0px;
+  overflow: hidden;
 }
 .testimonials h2 {
   font-size: 24px;
@@ -140,4 +143,87 @@ nav a {
   .testimonials .carousel-control-next {
     left: 50%;
   }
+}
+
+.proven-results {
+  background-color: #f7f7f7;
+  margin-top: 50px;
+  padding: 40px 0px;
+  overflow: hidden;
+}
+.proven-results h2 {
+  padding: 20px 0px;
+  font-size: 24px;
+  font-family: medium;
+  text-transform: uppercase;
+  text-align: center;
+}
+.proven-results img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 3/3;
+}
+.proven-results button {
+  background-color: #0ebbde;
+  padding: 5px 14px;
+  border: none;
+}
+.proven-results button a {
+  text-decoration: none;
+  font-family: semibold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.contact {
+  padding: 40px 0px;
+  overflow: hidden;
+  background: url(../Images/contact.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact h2 {
+  font-size: 26px;
+  font-family: medium;
+  text-transform: uppercase;
+}
+.contact h6 {
+  font-size: 18px;
+  font-family: medium;
+  text-transform: capitalize;
+}
+.contact p {
+  font-size: 16px;
+  font-family: light;
+}
+.contact input {
+  padding: 8px;
+}
+.contact select {
+  padding: 8px;
+  border: 1px solid black;
+  font-family: medium;
+}
+.contact button {
+  background-color: #0ebbde;
+  padding: 5px 10px;
+  border: none;
+  font-family: semibold;
+  color: #fff;
+}
+
+footer {
+  background-color: #0b133c;
+  padding: 40px 0px;
+}
+footer h4 {
+  font-size: 22px;
+  font-family: light;
+  color: #fff;
+}
+footer .icon {
+  padding-right: 10px;
 }/*# sourceMappingURL=style.css.map */
