@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -29,75 +29,127 @@
     src: url(../Fonts/Montserrat-SemiBold.ttf);
 }
 
-nav{
+
+
+nav {
     background-color: #0b133c;
-    a{
+    a {
         font-family: semibold;
         text-transform: uppercase;
         font-size: 16px;
     }
 }
 
-.banner{
+.banner {
     height: 600px;
     width: 100%;
-    img{
-        width:100%;
-        height: 100%;
-        object-fit: cover;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url(../Images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    .content-wrap{
+        width: 60%;
+        h1{
+            font-family: semibold;
+            color: #ffff;
+        }
+        p{
+            font-family: medium;
+            color: #ffff;
+        }
+        h3{
+            font-family: regular;
+            color: #ffff;
+        }
+        button{
+            background-color: #0ebbde;
+            padding: 5px 15px;
+            border: none;
+            a{
+                color: #ffff;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-family: semibold;
+            }
+        }
     }
+    
 }
 
-.medical-treatments{
+.medical-treatments {
     padding: 40px 0px;
-    overflow:hidden;
-    h2{
+    overflow: hidden;
+
+    h2 {
         font-family: semibold;
         font-size: 26px;
         text-transform: uppercase;
     }
-    h3{
+
+    h3 {
         font-family: medium;
         font-size: 24px;
     }
-    p{
+
+    p {
         font-family: light;
-        font-size: 18px;
+        font-size: 16px;
     }
-    img{
+
+    img {
         width: 64px;
         height: 64px;
         padding-bottom: 1064;
     }
+    button{
+        background-color: #0ebbde;
+        padding: 5px 15px;
+        border: none;
+        a{
+            font-family: medium;
+            color: #ffff;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
 }
 
-.welcome{
+.welcome {
     min-height: 500px;
     background: url(../Images/welcome_bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow:hidden;
-    .col-lg-6{
+    overflow: hidden;
+
+    .col-lg-6 {
         display: flex;
         justify-content: center;
         flex-direction: column;
         height: 500px;
-        h2{
-            font-size: 26px;
+
+        h2 {
+            font-size: 28px;
             text-transform: uppercase;
             font-family: medium;
         }
-        p{
-            font-size: 18px;
+
+        p {
+            font-size: 16px;
             font-family: light;
         }
-        button{
+
+        button {
             background-color: #0ebbde;
             padding: 5px 10px;
             width: fit-content;
             border: none;
-            a{
+
+            a {
                 color: #fff;
                 font-family: medium;
                 text-decoration: none;
@@ -106,21 +158,24 @@ nav{
     }
 }
 
-.testimonials{
-    padding: 40px 0px;
-    overflow:hidden;
-    h2{
+.testimonials {
+    padding: 60px 0px;
+    overflow: hidden;
+
+    h2 {
         font-size: 24px;
         font-family: medium;
         text-transform: uppercase;
         text-align: center;
     }
-    h3{
+
+    h3 {
         font-size: 22px;
         font-family: bold;
         color: grey;
     }
-    .carousel-control-next, 
+
+    .carousel-control-next,
     .carousel-control-prev {
         position: absolute;
         bottom: -50px;
@@ -135,40 +190,47 @@ nav{
         opacity: .5;
         transition: opacity .15s ease;
     }
+
     .carousel-control-prev {
         left: 40%;
     }
+
     .carousel-control-next {
-        left:43%;
+        left: 43%;
+
         @media (max-width:1053px) {
-            left:50%;
+            left: 50%;
         }
     }
 }
 
-.proven-results{
+.proven-results {
     background-color: #f7f7f7;
     margin-top: 50px;
     padding: 40px 0px;
-    overflow:hidden;
-    h2{
+    overflow: hidden;
+
+    h2 {
         padding: 20px 0px;
         font-size: 24px;
         font-family: medium;
         text-transform: uppercase;
         text-align: center;
     }
-    img{
+
+    img {
         width: 100%;
         height: auto;
         object-fit: cover;
         aspect-ratio: 3/3;
     }
-    button{
+
+    button {
         background-color: #0ebbde;
         padding: 5px 14px;
         border: none;
-        a{
+
+        a {
             text-decoration: none;
             font-family: semibold;
             color: #ffff;
@@ -177,36 +239,42 @@ nav{
     }
 }
 
-.contact{
+.contact {
     padding: 40px 0px;
     overflow: hidden;
     background: url(../Images/contact.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    h2{
+
+    h2 {
         font-size: 26px;
         font-family: medium;
         text-transform: uppercase;
     }
-    h6{
+
+    h6 {
         font-size: 18px;
         font-family: medium;
         text-transform: capitalize;
     }
-    p{
+
+    p {
         font-size: 16px;
         font-family: light;
     }
-    input{
+
+    input {
         padding: 8px;
     }
-    select{
+
+    select {
         padding: 8px;
         border: 1px solid black;
         font-family: medium;
     }
-    button{
+
+    button {
         background-color: #0ebbde;
         padding: 5px 10px;
         border: none;
@@ -215,18 +283,21 @@ nav{
     }
 }
 
-footer{
+footer {
     background-color: #0b133c;
     padding: 40px 0px;
-    h4{
+
+    h4 {
         font-size: 22px;
         font-family: light;
         color: #fff;
     }
-    .icon{
+
+    .icon {
         padding-right: 10px;
     }
-    hr{
+
+    hr {
         color: #fff;
         border: 1px solid #fff;
     }

@@ -36,12 +36,40 @@ nav a {
 .banner {
   height: 600px;
   width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../Images/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
 }
-.banner img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+.banner .content-wrap {
+  width: 60%;
+}
+.banner .content-wrap h1 {
+  font-family: semibold;
+  color: white;
+}
+.banner .content-wrap p {
+  font-family: medium;
+  color: white;
+}
+.banner .content-wrap h3 {
+  font-family: regular;
+  color: white;
+}
+.banner .content-wrap button {
+  background-color: #0ebbde;
+  padding: 5px 15px;
+  border: none;
+}
+.banner .content-wrap button a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: semibold;
 }
 
 .medical-treatments {
@@ -59,12 +87,23 @@ nav a {
 }
 .medical-treatments p {
   font-family: light;
-  font-size: 18px;
+  font-size: 16px;
 }
 .medical-treatments img {
   width: 64px;
   height: 64px;
   padding-bottom: 1064;
+}
+.medical-treatments button {
+  background-color: #0ebbde;
+  padding: 5px 15px;
+  border: none;
+}
+.medical-treatments button a {
+  font-family: medium;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .welcome {
@@ -82,12 +121,12 @@ nav a {
   height: 500px;
 }
 .welcome .col-lg-6 h2 {
-  font-size: 26px;
+  font-size: 28px;
   text-transform: uppercase;
   font-family: medium;
 }
 .welcome .col-lg-6 p {
-  font-size: 18px;
+  font-size: 16px;
   font-family: light;
 }
 .welcome .col-lg-6 button {
@@ -104,7 +143,7 @@ nav a {
 }
 
 .testimonials {
-  padding: 40px 0px;
+  padding: 60px 0px;
   overflow: hidden;
 }
 .testimonials h2 {
