@@ -10,6 +10,16 @@
 }
 
 @font-face {
+    font-family: EB;
+    src: url(../Fonts/EBGaramond-Regular.ttf);
+}
+
+@font-face {
+    font-family: Playfair;
+    src: url(../Fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
     font-family: medium;
     src: url(../Fonts/Montserrat-Medium.ttf);
 }
@@ -53,17 +63,39 @@ nav {
     flex-direction: column;
     .content-wrap{
         width: 60%;
+        padding: 0px 20px;
+        @media (max-width:774px) {
+            width: 100%;
+            padding: 0px 10px;
+        }
         h1{
-            font-family: semibold;
-            color: #ffff;
+            font-family: Playfair;
+            color: #ffffff;
+            font-weight: 800;
+            font-size: 42px;
+            @media (max-width:774px) {
+                font-size: 38px;
+            }
+        }
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            color: #0ebbde;
+            font-size: 30px;
+            @media (max-width:774px) {
+                font-size: 26px;
+            }
         }
         p{
-            font-family: medium;
+            font-family: EB;
             color: #ffff;
         }
         h3{
-            font-family: regular;
+            font-family: EB;
             color: #ffff;
+            font-size: 26px;
+            @media (max-width:774px) {
+                font-size: 22px;
+            }
         }
         button{
             background-color: #0ebbde;
@@ -73,7 +105,7 @@ nav {
                 color: #ffff;
                 text-decoration: none;
                 text-transform: uppercase;
-                font-family: semibold;
+                font-family: EB;
             }
         }
     }
@@ -286,8 +318,21 @@ nav {
 footer {
     background-color: #0b133c;
     padding: 40px 0px;
-
-    h4 {
+    h6{
+        color: #fff;
+        font-family: EB;
+        font-size: 18px;
+    }
+    li{
+        list-style: none;
+        color: #fff;
+        font-family: Playfair;
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    h5{
         font-size: 22px;
         font-family: light;
         color: #fff;
